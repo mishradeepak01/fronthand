@@ -1,0 +1,47 @@
+.grid{
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+
+  ion-card{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-self: center;    
+    
+    ion-img{
+      opacity: 0.6;
+      z-index: 1;
+      height: 350px;
+      
+    }
+    
+    ion-button{
+      position: absolute;
+      z-index:2;
+      top:50%;
+      left:50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    }
+  }
+
+  #template_name{
+    text-align: center;
+  }
+}
+ion-title{
+  color: #1000aa;
+}
+ion-label{
+  color: #414040;
+}
+
+ion-chip{
+  padding: 1rem;
+  background-color: #d4cbff;
+  .username{
+    font-size: 1rem;
+  }
+
+}

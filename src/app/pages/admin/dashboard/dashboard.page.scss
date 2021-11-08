@@ -1,0 +1,38 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  padding: 0.4rem;
+  ion-item{
+    padding: 0.4rem 0;
+  }
+  ion-img{
+    padding: 0.3rem;
+  }
+}
+
+#referal{
+  ion-card-header{
+    padding: 0.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    ion-button{
+      margin-top: 2rem;
+    }
+  }
+  ion-card-content{
+    #header{
+      ion-chip{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+      }
+    }
+    #content{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+}
